@@ -6,7 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <!-- npx tailwindcss -i ./styles/input.css -o ./styles/output.css --watch -->
     <title>Padaria</title>
-    <link rel="stylesheet" href="styles/output.css">
+    <link rel="stylesheet" href="./styles/output.css">
     <meta property="og:title" content="Padaria Vitória">
 
     <!-- Tipo do conteúdo (website, article, etc.) -->
@@ -20,12 +20,13 @@
 
     <!-- URL da imagem representativa (idealmente, 1200x630 pixels) -->
     <meta property="og:image" content="https://andreldgraciano.github.io/PadariaVitoria/images/cigarrete.png">
+    <link rel="shortcut icon" href="images/logo-padaria.png" type="image/x-icon">
 </head>
 
 <body>
     <section class="h-screen w-full overflow-hidden relative">
         <div  class="absolute text-white p-4 z-20 flex flex-col justify-center items-center bg-black/60 w-full h-full">
-            <h1 class="text-center text-5xl mb-20 sorts-mill-goudy-regular ">Padaria Vitoria</h1>
+            <h1 class="text-center text-5xl mb-20 sorts-mill-goudy-regular">Padaria Vitoria</h1>
             <h2 class="text-center text-4xl sorts-mill-goudy-regular ">Afeto Tradição Confiança</h2>
             <p class="text-center ">Há 10 anos presente em uma refeição tão importante:</p>
             <h3 class="text-xl text-orange-300">O café da manhã.</h3>
@@ -42,59 +43,61 @@
             
             <div class="flex-1 z-20 flex items-center">
                 <div class="max-w-lg space-y-6 flex flex-col items-center mx-auto md:mx-0">
-                    <h2 class="text-3xl text-center">Quer um pedacinho? <br>Encomende conosco!</h2>
-                    <p class="text-center px-4 xl:0">Saborosos bolos para adoçar qualquer ocasião, sejam aniversários, festas ou simplesmente para acompanhar um chá da tarde. Desde o clássico bolo de chocolate, passando pelo bolo de laranja fofinho, até às mais criativas opções como bolos de cenoura com cobertura de brigadeiro ou bolos mármore. Os ingredientes frescos e a dedicação em cada receita garantem que cada fatia seja uma explosão de sabor, perfeita para agradar a todos os paladares.</p>
-                    <button class="bg-red-700 mt-4 py-2 px-6 font-semibold text-white rounded-xl shadow-[3px_3px_12px_3px_rgba(0,0,0,0.3)] shadow-red-800/90 hover:shadow-red-800/75">Entrar em Contato</button>
+                    <h2 class="text-3xl text-center sorts-mill-goudy-regular">Quer um pedacinho? <br>Encomende conosco!</h2>
+                    <p class="text-center px-4 xl:0 text-lg">Saborosos bolos para adoçar qualquer ocasião, sejam aniversários, festas ou simplesmente para acompanhar um chá da tarde. Desde o clássico bolo de chocolate, passando pelo bolo de laranja fofinho, até às mais criativas opções como bolos de cenoura com cobertura de brigadeiro ou bolos mármore. Os ingredientes frescos e a dedicação em cada receita garantem que cada fatia seja uma explosão de sabor, perfeita para agradar a todos os paladares.</p>
+                    <button class="bg-red-700 mt-4 py-2 px-6 font-semibold text-white rounded-xl shadow-[3px_3px_0px_1px_rgba(0,0,0,0.3)] shadow-red-800">Entrar em Contato</button>
                     <img src="./images/paes.png" alt="" class="object-cover">
                 </div>                
             </div>
         </div>
         <div class="flex flex-col items-center">
-            <h2 class="text-center text-3xl my-8">Confira também nossos deliciosos Salgados!</h2>
+            <h2 class="text-center text-3xl my-8 sorts-mill-goudy-regular">Confira também nossos deliciosos Salgados!</h2>
             <div class="grid grid-cols-2 sm:flex">
                 <div class="flex flex-col justify-between items-center">
                     <img src="./images/cigarrete.png" alt="cigarrete">
-                    <p class="text-center text-sm">Cigarrete de Queijo</p>
+                    <p class="text-center text-xl px-2">Cigarrete</p>
                 </div>
                 <div class="flex flex-col justify-between items-center">
                     <img src="./images/enroladinho.png" alt="cigarrete">
-                    <p class="text-center text-sm">Enroladinho de presunto, queijo e  orégano</p>
+                    <p class="text-center text-xl px-2">Enroladinho</p>
                 </div>
                 <div class="flex flex-col justify-between items-center">
                     <img src="./images/coxinha.png" alt="cigarrete">
-                    <p class="text-center text-sm">Coxinha de Frango com catupiry</p>
+                    <p class="text-center text-xl px-2">Coxinha</p>
                 </div>
                 <div class="flex flex-col justify-between items-center">
                     <img src="./images/Empadão.png" alt="cigarrete">
-                    <p class="text-center text-sm">Empadão de frango</p>
+                    <p class="text-center text-xl px-2">Empadão</p>
                 </div>
             </div>
         </div>
     </section>
 
     <section class="bg-red-400">
-        <div class="grid grid-cols-1 md:grid-cols-2 gap-4 container mx-auto py-12">
-            <img src="./images/start.png" alt="" class="object-cover mx-auto my-auto px-4 md:px-0">
-            <div class="max-w-lg space-y-6 flex flex-col items-center mx-auto md:mx-0">
-                <h2 class="text-3xl text-center">Como Tudo Começou:</h2>
-                <p class="text-center px-4 xl:0">
+        <div class="relative flex justify-center items-center gap-4 mx-auto py-12">
+            <div class="max-w-4xl space-y-6 flex flex-col items-center mx-4 z-20 rounded-xl pb-8 p-4 md:p-8 text-white backdrop-blur-sm bg-red-950/80">
+                <h2 class="text-3xl text-center sorts-mill-goudy-regular">Como Tudo Começou:</h2>
+                <p class="px-4 xl:0 text-lg text-justify text-ident">
                     Nosso fundador sempre apaixonado pelo seu trabalho, aos 17 anos iniciou sua carreira na panificação. Após anos de dedicação à área, uma demissão trouxe a oportunidade de realizar o seu maior sonho: ter o próprio negócio. Com o valor da rescisão, investiu na concretização desse desejo e, em 4 de março de 2004, inaugurou a Confeitaria e Padaria Vitória.
-                Ao longo de tantos anos de história, enfrentamos altos e baixos que só fortaleceram nossas raízes. Desde o início, passamos por diversas transformações, mas buscamos sempre  o objetivo de melhorar nosso espaço e manter a qualidade   
+                Ao longo de tantos anos de história, enfrentamos altos e baixos que só fortaleceram nossas raízes.
+                </p>
+                <p class="px-4 xl:0 text-lg text-justify text-ident">Desde o início, passamos por diversas transformações, mas buscamos sempre  o objetivo de melhorar nosso espaço e manter a qualidade   
                 e variedade dos nossos produtos. Com uma cultura familiar, oferecemos um atendimento único, impulsionado pelo desejo de entrelaçar histórias e criar conexões.
                 A tradição faz parte da nossa jornada: seja aquele pão crocante e quentinho de todas as manhãs, ou aquele bolo que desperta memórias, carinho, conforto e bem-estar para você e conecta com sua familia. Nosso compromisso é oferecer o que há       de melhor em cada momento. 
                 </p>
-                <button class="bg-red-700 mt-4 py-2 px-6 font-semibold text-white rounded-xl shadow-[3px_3px_12px_3px_rgba(0,0,0,0.3)] shadow-red-800/90 hover:shadow-red-800/75">Conheça nosso espaço!</button>
+                <button class="bg-red-700 mt-4 py-2 px-6 font-semibold text-white rounded-xl shadow-[3px_3px_0px_1px_rgba(0,0,0,0.3)] shadow-red-800">Conheça nosso espaço!</button>
             </div>
+            <div class="w-full h-full absolute bg-red-900" style="background-image: url('images/paes.png');"></div>
         </div>
 
         <p class="text-center px-8">Aqui, o dia começa cedo. Durante a madrugada e até a noite, garantimos para que você, ao chegar pela manhã, encontre tudo fresquinho. Afinal, quando se ama o que faz, a rotina  se torna mais leve.</p>
 
         <div class="flex flex-col lg:flex-row items-center lg:items-start justify-center gap-8 lg:gap-12 container py-12 mx-auto text-yellow-600">
-            <div class="bg-red-950 w-[20rem] min-h-[268px] flex flex-col justify-around p-8 rounded-xl shadow-[3px_3px_12px_3px_rgba(0,0,0,0.3)] shadow-black/60">
+            <div class="bg-red-950 w-[20rem] min-h-[268px] flex flex-col justify-around p-8 rounded-xl shadow-[3px_3px_0px_1px_rgba(0,0,0,0.3)]">
                 <h2 class="text-xl font-semibold text-center mb-2">Nossa missão</h2>
                 <p class="text-center">Temos total compromisso em oferecer produtos de qualidade, buscando sempre proporcionar bem estar e satisfação para nossos clientes e colaboradores, alem de um ambiente familiar.</p>
             </div>
-            <div class="bg-red-950 w-[20rem] min-h-[268px] flex flex-col justify-around p-8 rounded-xl shadow-[3px_3px_4px_3px_rgba(0,0,0,0.3)] shadow-red-800/90">
+            <div class="bg-red-950 w-[20rem] min-h-[268px] flex flex-col justify-around p-8 rounded-xl shadow-[3px_3px_0px_1px_rgba(0,0,0,0.3)]">
                 <h2 class="text-xl font-semibold text-center mb-2">Nossa visão</h2>
                 <p class="text-center">Nós procuramos ser uma empresa referência em panificação, confeitaria e no atendimento ao cliente. Além de sempre servir com muita dedicação, carinho e atenção. </p>
             </div>
@@ -115,31 +118,31 @@
 
     <footer class="bg-red-950">
         <div class="grid grid-cols-3 container px-4 md:px-0 xl:px-40 text-white py-8 mx-auto">
-            <div class="col-span-3 md:col-span-1 flex flex-col items-center max-w-sm mx-auto">
-                <img src="./images/start.png" alt="" class="h-24 w-24 rounded-full">
+            <div class="col-span-3 md:col-span-1 flex flex-col items-center max-w-sm mx-auto gap-2">
+                <img src="./images/logo-padaria.png" alt="" class="h-24 w-24 rounded-full object-cover">
                 <p>CNPJ:06.158.147/0001-90</p>
-                <p class="text-center">Há 20 anos no mercado, mantemos a mesma essência, pautada no respeito, na transparência e no cuidado com todos nossos stakeholders.</p>
+                <p class="text-center text-sm">Há 20 anos no mercado, mantemos a mesma essência, pautada no respeito, na transparência e no cuidado com todos nossos stakeholders.</p>
             </div>
             <div class="col-span-3 md:col-span-2 self-end mt-8 md:mt-0">
                 <div class="flex flex-col md:flex-row">
                     <div class="flex-1">
                         <div class="max-w-sm md:max-w-[15rem] mx-auto">
                             <h2 class="text-lg font-semibold">Sobre</h2>
-                            <p>Av. Josué de Queirós, 727 - Matozinhos, São João del Rei - MG, 36300-000</p>
+                            <p class="text-sm">Av. Josué de Queirós, 727 - Matozinhos, São João del Rei - MG, 36300-000</p>
                             <p class="mt-8 text-lg font-semibold">Confeitaria e Padaria Vitória</p>
                         </div>
                     </div>
                     <div class="flex-1">
                         <div class="max-w-sm md:max-w-[15rem] mx-auto">
                             <h2 class="text-lg font-semibold">Sobre</h2>
-                            <p>Av. Josué de Queirós, 727 - Matozinhos, São João del Rei - MG, 36300-000</p>
+                            <p class="text-sm">Av. Josué de Queirós, 727 - Matozinhos, São João del Rei - MG, 36300-000</p>
                         </div>
                     </div>
                 </div>
-                <!-- <div class="max-w-[15rem] mx-auto">
-                    Confeitaria e Padaria Vitória
-                </div> -->
             </div>
+        </div>
+        <div class="flex justify-center items-center py-4 w-full">
+            <a href="https://www.siteinsight.com.br/" class="text-white font-semibold min-w-md border-t-2 border-white px-8 pt-2" target="_blank">2024 - SiteInsight</a>
         </div>
     </footer>
 
