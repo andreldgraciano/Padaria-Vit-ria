@@ -7,6 +7,7 @@
     <!-- npx tailwindcss -i ./styles/input.css -o ./styles/output.css --watch -->
     <title>Padaria</title>
     <link rel="stylesheet" href="./styles/output.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css" integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
     <meta property="og:title" content="Padaria Vitória">
 
     <!-- Tipo do conteúdo (website, article, etc.) -->
@@ -28,7 +29,7 @@
         <div  class="absolute text-white p-4 z-20 flex flex-col justify-center items-center bg-black/60 w-full h-full">
             <h1 class="text-center text-7xl sorts-mill-goudy-regular">Padaria Vitória</h1>
             <h2 class="text-center text-4xl sorts-mill-goudy-regular">Afeto Tradição Confiança</h2>
-            <p class="text-center">Há 10 anos presente em uma refeição tão importante:</p>
+            <p class="text-center">Há 20 anos presente em uma refeição tão importante:</p>
             <h3 class="text-xl text-orange-300">O café da manhã.</h3>
         </div>
         <div id="background" class="text-center bg-hero h-full w-full bg-cover bg-center">
@@ -45,7 +46,7 @@
                 <div class="max-w-lg space-y-6 flex flex-col items-center mx-auto md:mx-0">
                     <h2 class="text-3xl text-center sorts-mill-goudy-regular">Quer um pedacinho? <br>Encomende conosco!</h2>
                     <p class="text-center px-4 xl:0 text-lg">Saborosos bolos para adoçar qualquer ocasião, sejam aniversários, festas ou simplesmente para acompanhar um chá da tarde. Desde o clássico bolo de chocolate, passando pelo bolo de laranja fofinho, até às mais criativas opções como bolos de cenoura com cobertura de brigadeiro ou bolos mármore. Os ingredientes frescos e a dedicação em cada receita garantem que cada fatia seja uma explosão de sabor, perfeita para agradar a todos os paladares.</p>
-                    <button class="bg-red-700 mt-4 py-2 px-6 font-semibold text-white rounded-xl shadow-[3px_3px_0px_1px_rgba(0,0,0,0.3)] shadow-red-800">Entrar em Contato</button>
+                    <a href="https://wa.me/5532999767532" target="_blank" class="bg-red-700 mt-4 py-2 px-6 font-semibold text-white rounded-xl shadow-[3px_3px_0px_1px_rgba(0,0,0,0.3)] shadow-red-800">Entrar em Contato</a>
                     <img src="./images/paes.png" alt="" class="object-cover">
                 </div>                
             </div>
@@ -85,7 +86,8 @@
                 e variedade dos nossos produtos. Com uma cultura familiar, oferecemos um atendimento único, impulsionado pelo desejo de entrelaçar histórias e criar conexões.
                 A tradição faz parte da nossa jornada: seja aquele pão crocante e quentinho de todas as manhãs, ou aquele bolo que desperta memórias, carinho, conforto e bem-estar para você e conecta com sua familia. Nosso compromisso é oferecer o que há       de melhor em cada momento. 
                 </p>
-                <button class="bg-red-700 mt-4 py-2 px-6 font-semibold text-white rounded-xl shadow-[3px_3px_0px_1px_rgba(0,0,0,0.3)] shadow-red-800">Conheça nosso espaço!</button>
+                <!-- <button class="bg-red-700 mt-4 py-2 px-6 font-semibold text-white rounded-xl shadow-[3px_3px_0px_1px_rgba(0,0,0,0.3)] shadow-red-800">Conheça nosso espaço!</button> -->
+                <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3721.5242208295867!2d-44.235730399999994!3d-21.1315264!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0xa1c7cce719b2d7%3A0x4ab5a5844999567e!2sAv.%20Josu%C3%A9%20de%20Queir%C3%B3s%2C%20727%20-%20Matozinhos%2C%20S%C3%A3o%20Jo%C3%A3o%20del%20Rei%20-%20MG%2C%2036305-144!5e0!3m2!1spt-BR!2sbr!4v1730926281254!5m2!1spt-BR!2sbr" class="w-full h-64 rounded-xl border-2 border-red-400" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
             </div>
             <div class="w-full h-full absolute bg-red-900" style="background-image: url('images/paes.png');"></div>
         </div>
@@ -117,25 +119,29 @@
     </section>
 
     <footer class="bg-red-950">
-        <div class="grid grid-cols-3 container px-4 md:px-0 xl:px-40 text-white py-8 mx-auto">
-            <div class="col-span-3 md:col-span-1 flex flex-col items-center max-w-sm mx-auto gap-2">
+        <div class="grid grid-cols-3 container px-4 md:px-0 xl:px-40 text-white pt-8 pb-4 mx-auto">
+            <div class="col-span-3 md:col-span-1 flex flex-col items-center max-w-sm mx-auto gap-2 px-10 md:px-0">
                 <img src="./images/logo-padaria.png" alt="" class="h-24 w-24 rounded-full object-cover">
                 <p>CNPJ:06.158.147/0001-90</p>
                 <p class="text-center text-sm">Há 20 anos no mercado, mantemos a mesma essência, pautada no respeito, na transparência e no cuidado com todos nossos stakeholders.</p>
             </div>
             <div class="col-span-3 md:col-span-2 self-end mt-8 md:mt-0">
                 <div class="flex flex-col md:flex-row">
-                    <div class="flex-1">
+                    <div class="flex-1 px-16 md:px-0">
                         <div class="max-w-sm md:max-w-[15rem] mx-auto">
                             <h2 class="text-lg font-semibold">Sobre</h2>
                             <p class="text-sm">Av. Josué de Queirós, 727 - Matozinhos, São João del Rei - MG, 36300-000</p>
                             <p class="mt-8 text-lg font-semibold">Confeitaria e Padaria Vitória</p>
                         </div>
                     </div>
-                    <div class="flex-1">
+                    <div class="flex-1 px-16 md:px-0">
                         <div class="max-w-sm md:max-w-[15rem] mx-auto">
-                            <h2 class="text-lg font-semibold">Sobre</h2>
-                            <p class="text-sm">Av. Josué de Queirós, 727 - Matozinhos, São João del Rei - MG, 36300-000</p>
+                            <h2 class="text-lg font-semibold">Social</h2>
+                            <ul class="flex flex-col gap-1">
+                                <li><a href="https://www.instagram.com/Padariavitoria_sjdr/" target="_blank" class="text-sm flex gap-2 items-center" ><i class="fa-brands fa-instagram"></i> <p>Instagram</p></a></li>
+                                <li><a href="https://www.facebook.com/profile.php?id=100066925085498&mibextid=LQQJ4d" target="_blank" class="text-sm flex gap-2 items-center"><i class="fa-brands fa-facebook"></i> <p>Facebook</p></a></li>
+                                <li><a href="https://wa.me/5532999767532" target="_blank" class="text-sm flex gap-2 items-center"><i class="fa-brands fa-whatsapp"></i> <p>(32) 9 9976-7532</p></a></li>
+                            </ul>
                         </div>
                     </div>
                 </div>
