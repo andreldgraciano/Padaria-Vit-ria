@@ -3,7 +3,7 @@
 @tailwind utilities;
 
 .bg-hero {
-    background-image: url('images/1.png');
+    background-image: url('../images/2.png');
     transition: background-image 0.1s ease-in, transform 5s ease-in;
 
 }
